@@ -1,0 +1,169 @@
+body {
+  max-width: 1320px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Combo', cursive;
+  font-weight: bold;
+}
+
+li {
+  float: right;
+  margin-right: 20px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: transparent;
+  color: #48abe0;
+}
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  box-sizing: inherit;
+}
+
+.container {
+  width: 320px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #fa983a;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4rem;
+  padding: 10px;
+}
+
+.search__box {
+  float: left;
+  width: 0;
+  height: 2.5rem;
+  background: none;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  position: relative;
+  opacity: 1;
+  transition: all .75s ease-in;
+  cursor: pointer;
+}
+
+.search__icon {
+  box-sizing: border-box;
+  float: right;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-left: .8rem;
+  margin-top: 0;
+  cursor: pointer;
+  position: absolute;
+  color: #fa983a;
+  transition: all .25s ease-in;
+  padding: .7rem;
+  border-radius: 50%;
+}
+
+.container:hover > .search__box {
+  width: 85%;
+  padding: 0 1rem;
+}
+
+.container:hover > .search__icon {
+  background-color: #eee;
+}
+
+.show {
+  width: 85%;
+  border: 1px solid red;
+}
+
+#search-box {
+  background: #eee;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+  border: 0 none;
+  width: 160px;
+} */
+
+.cardlevel {
+  position: static;
+  height: 375px;
+  background-color: aliceblue;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 2px #f6f6f6
+}
+
+
+.levelText {
+  color: black;
+  font-size: 36px;
+}
+
+.levelPara {
+  color: black;
+  font-size: 24px;
+}
+
+.button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 40px;
+  background-color: #48abe0;
+  font-size: 20px;
+}
+
+.hero {
+  background-image: url("../images/greenery.png");
+  background-size:cover;
+  opacity: 0.4;
+  min-height: 366px;
+}
+
+.bottom {
+  padding: 24px;
+}
+
+.bottom-left-area {
+  background-image: url("../images/levels.jpg");
+  background-size:cover;
+  width: 630px;
+  min-height: 325px;
+  border-radius: 10px;
+}
+
+.bottom-right-area {
+  display:grid;
+  width: 630px;
+  text-align: center;
+}
+
+.bottom-right-area > div {
+  padding: 16px;
+} 
+
+.center {
+  text-align: center;
+}

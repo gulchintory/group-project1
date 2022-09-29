@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Blog</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">   
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+<title>Trail Mix</title>
+<link rel="stylesheet" href="./assets/css/blog.css" />
+</head>
+
+<body>
+<div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Login/Sign Up</a>
+        </li>
+        <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Explore</a>
+        </li>
+        <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">About</a>
+        </li>
+        <div id="Logo">
+            <h2 style=" color:black;">Trail-Mix</h2>
+        </div>
+    </ul>
+</div>
+<section class="background">
+    <img src="./assets/images/greenery.png" alt="Backgroundimage" style="width: 100%;height:10%;margin: 0;opacity: 40%;">
+    <div class="container">
+        <input type="text" id="box" placeholder="Search Location..." class="search__box">
+        <i class="fas fa-search search__icon" id="icon" onclick="toggleShow()"></i>
+    </div>
+</section>
+
+<body>
+    <form class="pure-form pure-form-aligned" id=form>
+        
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="aligned-title">Title your Post!</label>
+                <input type="title" id="title" class="pure-input-rounded" placeholder="Title" />
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-body">How was your hike?</label>
+                <textarea class="pure-input-rounded" id="body" placeholder="How was your hike?"></textarea>
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-name">Your Name</label>
+                <input type="name" id="name" class="pure-input-rounded" placeholder="Name" />
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-date">Todays Date</label>
+                <input type="date" id="date" class="pure-input-rounded" placeholder="Date" />
+            </div>
+                <label for="multi-state">Which hike did you complete?</label>
+                <select id="multi-state" class="pure-input-1-4 pure-input-rounded">
+                    <option>Cape Woolamai Walk</option>
+                    <option>Grampians 90mile Beach</option>
+                    <option>Keppel Lookout Trail</option>
+                    <option>Werribee Gorge State Park Circuit</option>
+                </select>
+            </div>
+
+            <div class="pure-controls">
+                <button type="submit" id="submit" class="pure-button pure-button-primary pure-input-rounded">Submit</button>
+            </div>
+
+               </fieldset>
+    </form>
+    
+
+            <div class="card">
+                <h2><span id="saved-title"></span></h2>
+                <p><span id="saved-body"></span></p>
+                <p><span id="saved-name"></span></p>
+                <p><span id="saved-date"></span></p>
+                <p><span id="saved-map"></span></p>
+              </div>
+              
+            
+     
+</body>
+</html>
+<script src="assets/js/blog.js"></script>

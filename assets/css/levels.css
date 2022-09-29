@@ -1,0 +1,71 @@
+h2 {
+    text-align: center;
+    font-size:32px;
+    font-family: 'Combo', cursive;
+    font-weight: bold;
+  }
+  /* navigation bar */
+  .pure-menu-list{
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    z-index: 4;
+    align-items: center;
+  
+  }
+  li {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: transparent;
+    color: #48abe0;
+  }
+
+
+/* card that shows level */
+.cardLevels {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 200px;
+
+}
+/* card buttons to select different levels */
+.button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #48abe0;
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    opacity: 0.8;
+    background-color:goldenrod ;
+}

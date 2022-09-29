@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <!-- <title>Landing Page &ndash; Layout Examples &ndash; Pure</title> -->
+    <!-- <link rel="stylesheet" href="/css/pure/pure-min.css"> -->
+    <!-- <link rel="stylesheet" href="/css/pure/grids-responsive-min.css"> -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+        integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+
+    <title>Trail Mix</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <header>
+        <div class="pure-g">            
+            <div class="pure-u-1">
+                <h2>Trail-Mix</h2>
+            </div>
+            <div class="pure-u-1">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                        <a href="#" class="pure-menu-link">Login/Sign Up</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="." class="pure-menu-link">Explore</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="#" class="pure-menu-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="hero"></div>
+        <div class="container">
+            <input type="text" id="box" placeholder="Search Location..." class="search__box">
+            <i class="fas fa-search search__icon" id="icon" onclick="toggleShow()"></i>
+        </div>
+    </section>
+
+    <section class="bottom center">
+        <div class="pure-g center">
+            <div class="pure-u-1-2 bottom-left-area">
+
+            </div>
+            <div class="pure-u-1-2 bottom-right-area">
+                <div>
+                    <h3 class="levelText"><strong>Levels</strong></h3>
+                </div>
+                <div>
+                    <p class="levelPara">Set the level of your preferred hiking to Easy, Intermediate and Advance. This
+                        feature
+                        is designed for beginners to professional hikers. </p>
+                </div>
+                <div>
+                    <button onclick="goToWorkpage()" class="pure-button pure-button-primary button-secondary">Select Level</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
